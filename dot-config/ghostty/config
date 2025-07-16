@@ -1,0 +1,5 @@
+theme = rose-pine-moon
+
+# mac
+macos-option-as-alt = true
+keybind = alt+three=text:\x23
