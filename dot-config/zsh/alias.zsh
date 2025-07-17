@@ -10,5 +10,5 @@ alias gdf='git diff --name-only'
 alias gdm='git diff main...'
 alias gdmf='git diff main... --name-only'
 
-alias t='tree -a -I .git'
+alias t='tree -aC -I .git'
 alias cdf='$(dir=$(find . -type d | fzf) && [ -n "$dir" ] && cd "$dir")'
