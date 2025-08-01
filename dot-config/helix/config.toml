@@ -1,4 +1,5 @@
 theme = "rose_pine_moon"
+
 [editor]
 rulers = [128]
 end-of-line-diagnostics = "hint"
@@ -6,3 +7,6 @@ end-of-line-diagnostics = "hint"
 cursor-line = "error"
 [editor.file-picker]
 hidden = false
+
+[keys.normal]
+esc = ["collapse_selection", "keep_primary_selection"]
