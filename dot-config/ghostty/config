@@ -1,6 +1,18 @@
-theme = rose-pine-moon
+theme = rose-pine
+command = zsh
+shell-integration = zsh
+
 keybind = shift+enter=text:\n
+keybind = ctrl+shift+w=close_surface
+keybind = ctrl+shift+up=goto_split:up
+keybind = ctrl+shift+down=goto_split:down
+keybind = ctrl+shift+right=goto_split:right
+keybind = ctrl+shift+left=goto_split:left
+keybind = alt+t=new_tab
+keybind = alt+w=close_tab
+keybind = alt+right=next_tab
+keybind = alt+left=previous_tab
 
 # mac
 macos-option-as-alt = true
-keybind = alt+three=text:\x23
+keybind = shift+three=text:\x23
